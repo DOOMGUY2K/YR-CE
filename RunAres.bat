@@ -1,1 +1,0 @@
-Syringe "gamemd.exe" %*

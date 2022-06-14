@@ -1,0 +1,1322 @@
+                                                                                                                       
+____________       _   __          _                                                                                   
+|  _  \ ___ \     | | / /         | |                                                                                  
+| | | | |_/ /_____| |/ / _ __ __ _| |_ ___  ___                                                                        
+| | | |  __/______|    \| '__/ _` | __/ _ \/ __|                                                                       
+| |/ /| |         | |\  \ | | (_| | || (_) \__ \                                                                       
+|___/ \_|         \_| \_/_|  \__,_|\__\___/|___/                                                                       
+                                                                                                                       
+______                        _            ______                             _     ______     _       _               
+| ___ \                      | |           |  _  \                           (_)    | ___ \   | |     | |              
+| |_/ /____      _____ _ __  | |__  _   _  | | | |_   _ _ __   __ _ _ __ ___  _  ___| |_/ /_ _| |_ ___| |__   ___ _ __ 
+|  __/ _ \ \ /\ / / _ \ '__| | '_ \| | | | | | | | | | | '_ \ / _` | '_ ` _ \| |/ __|  __/ _` | __/ __| '_ \ / _ \ '__|
+| | | (_) \ V  V /  __/ |    | |_) | |_| | | |/ /| |_| | | | | (_| | | | | | | | (__| | | (_| | || (__| | | |  __/ |   
+\_|  \___/ \_/\_/ \___|_|    |_.__/ \__, | |___/  \__, |_| |_|\__,_|_| |_| |_|_|\___\_|  \__,_|\__\___|_| |_|\___|_|   
+                                     __/ |         __/ |                                                               
+                                    |___/         |___/                                   Made by Xkein 2019 中国智造  
+                                                                                          Build by ChrisLv_CN          
+                                                                                                                       
+working directory: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher
+loading configs...
+try-catch callable: True
+initializing CompilationManager...
+loading solution: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Projects\Projects.sln
+
+ReferencedAssemblies: 
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher.dll
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Libraries\System.Runtime.CompilerServices.Unsafe.dll
+C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Libraries\System.Runtime.CompilerServices.Unsafe.dll
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Libraries\PatcherYRpp.dll
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Libraries\PatcherYRpp.Utilities.dll
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Libraries\Extension.dll
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Libraries\Extension.FX.dll
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Libraries\Microsoft.VisualStudio.Interop.dll
+
+PreprocessorSymbols: 
+_REALTIME_INI
+_FX_ENABLE
+_FX_USED3D
+_FX_TOFIX
+_FX_CNCDDRAW
+
+Diagnostic.ShowHidden: False
+LoadTempFileInMemory: False
+EmitPDB: True
+ForceCompile: False
+PackAssembly: True
+CopyLogFiles: False
+
+CompilerOptions: 
+AllowUnsafe: True
+WarningLevel: 4
+Platform: AnyCpu
+OptimizationLevel: Release
+OutputKind: DynamicallyLinkedLibrary
+LanguageVersion: CSharp9
+
+initializing HookManager...
+find process:  (22652)
+initializing CodeWatcher...
+first compile: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ComponentHooks\BulletComponent.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ComponentHooks\BulletComponent.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ComponentHooks\BulletComponent.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ComponentHooks\TechnoComponent.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ComponentHooks\TechnoComponent.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ComponentHooks\TechnoComponent.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\AnimExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\AnimExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\AnimExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\AnimTypeExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\AnimTypeExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\AnimTypeExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\BulletExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\BulletExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\BulletExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\BulletTypeExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\BulletTypeExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\BulletTypeExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\CreditsExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\CreditsExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\CreditsExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\EBoltExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\EBoltExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\EBoltExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\GScreenExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\GScreenExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\GScreenExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\LaserDrawExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\LaserDrawExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\LaserDrawExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\MapExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\MapExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\MapExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\ParasiteExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\ParasiteExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\ParasiteExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\RulesExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\RulesExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\RulesExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\SpawnManagerExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\SpawnManagerExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\SpawnManagerExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\TechnoExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\TechnoExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\TechnoExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\TechnoTypeExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\TechnoTypeExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\TechnoTypeExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\WarheadTypeExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\WarheadTypeExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\WarheadTypeExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\ExtensionHooks\WeaponTypeExt.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\ExtensionHooks\WeaponTypeExt.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\ExtensionHooks\WeaponTypeExt.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\FXHooks\FXEngineHooks.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\FXHooks\FXEngineHooks.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\FXHooks\FXEngineHooks.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\GeneralHooks\General.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\GeneralHooks\General.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\GeneralHooks\General.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\GeneralHooks\PointerExpire.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\GeneralHooks\PointerExpire.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\GeneralHooks\PointerExpire.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\GeneralHooks\Savegame.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\GeneralHooks\Savegame.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\GeneralHooks\Savegame.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Miscellaneous\DynamicLoadINI.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\Miscellaneous\DynamicLoadINI.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\Miscellaneous\DynamicLoadINI.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Miscellaneous\Preprocess.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\Miscellaneous\Preprocess.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\Miscellaneous\Preprocess.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Miscellaneous\SurfaceDisplayer.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\Miscellaneous\SurfaceDisplayer.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\Miscellaneous\SurfaceDisplayer.tmp
+
+compiling: C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Scripts\ParaScript.cs
+unpacking C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Packages\Build\Scripts\ParaScript.pkg into C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\Build\Scripts\ParaScript.tmp
+
+appling: BulletComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ComponentHooks.BulletComponentHooks: 
+
+appling AresHook hook: 468090, BulletClass_Render_Components, 6
+add key '468090'
+ares hook callable: 0xCD733D6
+AresHookTransferStation alloc: 0x10D60014
+in class ComponentHooks.BulletComponentHooks+<>c: 
+in class ComponentHooks.BulletComponentHooks+<>c__DisplayClass1_0: 
+-----------------------------------
+
+appling: TechnoComponent, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ComponentHooks.TechnoComponentHooks: 
+
+appling AresHook hook: 4144B0, AircraftClass_Render_Components, 5
+add key '4144B0'
+ares hook callable: 0xCD7341E
+AresHookTransferStation alloc: 0x10D60051
+
+appling AresHook hook: 43D290, BuildingClass_Render_Components, 5
+add key '43D290'
+ares hook callable: 0xCD73466
+AresHookTransferStation alloc: 0x10D6008E
+
+appling AresHook hook: 518F90, InfantryClass_Render_Components, 7
+add key '518F90'
+ares hook callable: 0xCD734AE
+AresHookTransferStation alloc: 0x10D600CB
+
+appling AresHook hook: 73CEC0, UnitClass_Render_Components, 5
+add key '73CEC0'
+ares hook callable: 0xCD734F6
+AresHookTransferStation alloc: 0x10D60108
+in class ComponentHooks.TechnoComponentHooks+<>c: 
+in class ComponentHooks.TechnoComponentHooks+<>c__DisplayClass1_0: 
+in class ComponentHooks.TechnoComponentHooks+<>c__DisplayClass3_0: 
+in class ComponentHooks.TechnoComponentHooks+<>c__DisplayClass4_0: 
+-----------------------------------
+
+appling: AnimExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.AnimExtHooks: 
+
+appling AresHook hook: 422126, AnimClass_CTOR, 5
+[Warning] AnimClass_CTOR overwrite 'JMP 0x2EE0000', which may jump to other module.
+add key '422126'
+ares hook callable: 0xCD7353E
+AresHookTransferStation alloc: 0x10D60145
+appling AresHook hook: 422707, AnimClass_CTOR, 5
+[Warning] AnimClass_CTOR overwrite 'JMP 0x2EF0000', which may jump to other module.
+add key '422707'
+ares hook callable: 0xCD767CE
+AresHookTransferStation alloc: 0x10D60182
+appling AresHook hook: 4228D2, AnimClass_CTOR, 5
+[Warning] AnimClass_CTOR overwrite 'JMP 0x2F00000', which may jump to other module.
+add key '4228D2'
+ares hook callable: 0xCD76816
+AresHookTransferStation alloc: 0x10D601BF
+
+appling AresHook hook: 422967, AnimClass_DTOR, 6
+[Warning] AnimClass_DTOR overwrite 'JMP 0x2F10000', which may jump to other module.
+add key '422967'
+ares hook callable: 0xCD7685E
+AresHookTransferStation alloc: 0x10D601FC
+
+appling AresHook hook: 425280, AnimClass_SaveLoad_Prefix, 5
+[Warning] AnimClass_SaveLoad_Prefix overwrite 'JMP 0x3060000', which may jump to other module.
+add key '425280'
+ares hook callable: 0xCD768A6
+AresHookTransferStation alloc: 0x10D60239
+appling AresHook hook: 4253B0, AnimClass_SaveLoad_Prefix, 5
+[Warning] AnimClass_SaveLoad_Prefix overwrite 'JMP 0x30A0000', which may jump to other module.
+add key '4253B0'
+ares hook callable: 0xCD768EE
+AresHookTransferStation alloc: 0x10D60276
+
+appling AresHook hook: 425391, AnimClass_Load_Suffix, 7
+[Warning] AnimClass_Load_Suffix overwrite 'JMP 0x3080000', which may jump to other module.
+add key '425391'
+ares hook callable: 0xCD76936
+AresHookTransferStation alloc: 0x10D602B3
+appling AresHook hook: 4253A2, AnimClass_Load_Suffix, 7
+[Warning] AnimClass_Load_Suffix overwrite 'JMP 0x3090000', which may jump to other module.
+add key '4253A2'
+ares hook callable: 0xCD7697E
+AresHookTransferStation alloc: 0x10D602F0
+appling AresHook hook: 425358, AnimClass_Load_Suffix, 7
+[Warning] AnimClass_Load_Suffix overwrite 'JMP 0x3070000', which may jump to other module.
+add key '425358'
+ares hook callable: 0xCD731EE
+AresHookTransferStation alloc: 0x10D6032D
+
+appling AresHook hook: 4253FF, AnimClass_Save_Suffix, 5
+[Warning] AnimClass_Save_Suffix overwrite 'JMP 0x30B0000', which may jump to other module.
+add key '4253FF'
+ares hook callable: 0xCD79B5E
+AresHookTransferStation alloc: 0x10D6036A
+
+appling AresHook hook: 423AC0, AnimClass_Update, 6
+add key '423AC0'
+ares hook callable: 0xCD79D9E
+AresHookTransferStation alloc: 0x10D603A7
+
+appling AresHook hook: 424538, AnimClass_Update_Explosion, 6
+[Warning] AnimClass_Update_Explosion overwrite 'JMP 0x2FB0000', which may jump to other module.
+add key '424538'
+ares hook callable: 0xCD79F96
+AresHookTransferStation alloc: 0x12220000
+
+appling AresHook hook: 424785, AnimClass_Loop, 6
+add key '424785'
+ares hook callable: 0xCD79BEE
+AresHookTransferStation alloc: 0x1222003D
+
+appling AresHook hook: 4247F3, AnimClass_Done, 6
+add key '4247F3'
+ares hook callable: 0xCD79BA6
+AresHookTransferStation alloc: 0x1222007A
+appling AresHook hook: 424298, AnimClass_Done, 6
+add key '424298'
+ares hook callable: 0xCD79F06
+AresHookTransferStation alloc: 0x122200B7
+
+appling AresHook hook: 424807, AnimClass_Next, 6
+add key '424807'
+ares hook callable: 0xCD79DE6
+AresHookTransferStation alloc: 0x122200F4
+
+appling AresHook hook: 422CA0, AnimClass_Render, 5
+add key '422CA0'
+ares hook callable: 0xCD79F4E
+AresHookTransferStation alloc: 0x12220131
+
+appling AresHook hook: 423630, AnimClass_Draw_It, 6
+add key '423630'
+ares hook callable: 0xCD7A06E
+AresHookTransferStation alloc: 0x1222016E
+
+appling AresHook hook: 42312A, AnimClass_Draw_Remap, 6
+add key '42312A'
+ares hook callable: 0xCD79CC6
+AresHookTransferStation alloc: 0x122201AB
+
+appling AresHook hook: 423136, AnimClass_Draw_Remap2, 6
+add key '423136'
+ares hook callable: 0xCD799AE
+AresHookTransferStation alloc: 0x122201E8
+
+appling AresHook hook: 423E75, AnimClass_Extras_Remap, 6
+add key '423E75'
+ares hook callable: 0xCD79E2E
+AresHookTransferStation alloc: 0x12220225
+
+appling AresHook hook: 423E7B, AnimClass_Extras_Explosion, A
+add key '423E7B'
+ares hook callable: 0xCD7991E
+AresHookTransferStation alloc: 0x12220262
+
+appling AresHook hook: 423CEA, AnimClass_Extras_HitWater_Meteor, 5
+add key '423CEA'
+ares hook callable: 0xCD79FDE
+AresHookTransferStation alloc: 0x1222029F
+
+appling AresHook hook: 423D46, AnimClass_Extras_HitWater_Other, 5
+add key '423D46'
+ares hook callable: 0xCD79A3E
+AresHookTransferStation alloc: 0x122202DC
+
+appling AresHook hook: 423F8C, AnimClass_Spawn_Remap, 5
+add key '423F8C'
+ares hook callable: 0xCD7A026
+AresHookTransferStation alloc: 0x12220319
+
+appling AresHook hook: 4242E1, AnimClass_Trailer_Remap, 5
+add key '4242E1'
+ares hook callable: 0xCD7A0B6
+AresHookTransferStation alloc: 0x12220356
+in class ExtensionHooks.AnimExtHooks+<>c: 
+-----------------------------------
+
+appling: AnimTypeExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.AnimTypeExtHooks: 
+
+appling AresHook hook: 42784B, AnimTypeClass_CTOR, 5
+[Warning] AnimTypeClass_CTOR overwrite 'JMP 0x30C0000', which may jump to other module.
+add key '42784B'
+ares hook callable: 0xCD79966
+AresHookTransferStation alloc: 0x12220393
+
+appling AresHook hook: 428EA8, AnimTypeClass_SDDTOR, 5
+[Warning] AnimTypeClass_SDDTOR overwrite 'JMP 0x3140000', which may jump to other module.
+add key '428EA8'
+ares hook callable: 0xCD799F6
+AresHookTransferStation alloc: 0x122A0000
+
+appling AresHook hook: 4287E9, AnimTypeClass_LoadFromINI, A
+[Warning] AnimTypeClass_LoadFromINI overwrite 'JMP 0x30E0000', which may jump to other module.
+add key '4287E9'
+ares hook callable: 0xCD79A86
+AresHookTransferStation alloc: 0x122A003D
+appling AresHook hook: 4287DC, AnimTypeClass_LoadFromINI, A
+[Warning] AnimTypeClass_LoadFromINI overwrite 'JMP 0x30D0000', which may jump to other module.
+add key '4287DC'
+ares hook callable: 0xCD79D0E
+AresHookTransferStation alloc: 0x122A007A
+
+appling AresHook hook: 428970, AnimTypeClass_SaveLoad_Prefix, 8
+[Warning] AnimTypeClass_SaveLoad_Prefix overwrite 'JMP 0x3120000', which may jump to other module.
+add key '428970'
+ares hook callable: 0xCD79E76
+AresHookTransferStation alloc: 0x122A00B7
+appling AresHook hook: 428800, AnimTypeClass_SaveLoad_Prefix, A
+[Warning] AnimTypeClass_SaveLoad_Prefix overwrite 'JMP 0x30F0000', which may jump to other module.
+add key '428800'
+ares hook callable: 0xCD79C36
+AresHookTransferStation alloc: 0x122A00F4
+
+appling AresHook hook: 42892C, AnimTypeClass_Load_Suffix, 6
+[Warning] AnimTypeClass_Load_Suffix overwrite 'JMP 0x3100000', which may jump to other module.
+add key '42892C'
+ares hook callable: 0xCD79ACE
+AresHookTransferStation alloc: 0x122A0131
+appling AresHook hook: 428958, AnimTypeClass_Load_Suffix, 6
+[Warning] AnimTypeClass_Load_Suffix overwrite 'JMP 0x3110000', which may jump to other module.
+add key '428958'
+ares hook callable: 0xCD79C7E
+AresHookTransferStation alloc: 0x122A016E
+
+appling AresHook hook: 42898A, AnimTypeClass_Save_Suffix, 5
+[Warning] AnimTypeClass_Save_Suffix overwrite 'JMP 0x3130000', which may jump to other module.
+add key '42898A'
+ares hook callable: 0xCD79B16
+AresHookTransferStation alloc: 0x122A01AB
+-----------------------------------
+
+appling: BulletExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.BulletExtHooks: 
+
+appling AresHook hook: 4664BA, BulletClass_CTOR, 5
+[Warning] BulletClass_CTOR overwrite 'JMP 0x3E90000', which may jump to other module.
+add key '4664BA'
+ares hook callable: 0xCD79D56
+AresHookTransferStation alloc: 0x122A01E8
+
+appling AresHook hook: 4665E9, BulletClass_DTOR, A
+[Warning] BulletClass_DTOR overwrite 'JMP 0x3EC0000', which may jump to other module.
+add key '4665E9'
+ares hook callable: 0xCD79EBE
+AresHookTransferStation alloc: 0x122A0225
+
+appling AresHook hook: 46AFB0, BulletClass_SaveLoad_Prefix, 8
+[Warning] BulletClass_SaveLoad_Prefix overwrite 'JMP 0x40B0000', which may jump to other module.
+add key '46AFB0'
+ares hook callable: 0xCD7ABA6
+AresHookTransferStation alloc: 0x122A0262
+appling AresHook hook: 46AE70, BulletClass_SaveLoad_Prefix, 5
+[Warning] BulletClass_SaveLoad_Prefix overwrite 'JMP 0x4080000', which may jump to other module.
+add key '46AE70'
+ares hook callable: 0xCD7AACE
+AresHookTransferStation alloc: 0x122A029F
+
+appling AresHook hook: 46AF97, BulletClass_Load_Suffix, 7
+[Warning] BulletClass_Load_Suffix overwrite 'JMP 0x4090000', which may jump to other module.
+add key '46AF97'
+ares hook callable: 0xCD7A91E
+AresHookTransferStation alloc: 0x122A02DC
+appling AresHook hook: 46AF9E, BulletClass_Load_Suffix, 7
+[Warning] BulletClass_Load_Suffix overwrite 'JMP 0x40A0000', which may jump to other module.
+add key '46AF9E'
+ares hook callable: 0xCD7A576
+AresHookTransferStation alloc: 0x122A0319
+
+appling AresHook hook: 46AFC4, BulletClass_Save_Suffix, 5
+[Warning] BulletClass_Save_Suffix overwrite 'JMP 0x40C0000', which may jump to other module.
+add key '46AFC4'
+ares hook callable: 0xCD7A5BE
+AresHookTransferStation alloc: 0x122A0356
+
+appling AresHook hook: 466556, BulletClass_Init, 6
+[Warning] BulletClass_Init overwrite 'JMP 0x3EB0000', which may jump to other module.
+add key '466556'
+ares hook callable: 0xCD7A606
+AresHookTransferStation alloc: 0x122A0393
+
+appling AresHook hook: 468B5D, BulletClass_Put, 6
+add key '468B5D'
+ares hook callable: 0xCD7AA3E
+AresHookTransferStation alloc: 0x122B0000
+
+appling AresHook hook: 4666F7, BulletClass_Update, 6
+[Warning] BulletClass_Update overwrite 'JMP 0x3ED0000', which may jump to other module.
+add key '4666F7'
+ares hook callable: 0xCD7A966
+AresHookTransferStation alloc: 0x122B003D
+
+appling AresHook hook: 46745C, BulletClass_Update_ChangeVelocity, 7
+add key '46745C'
+ares hook callable: 0xCD7ABEE
+AresHookTransferStation alloc: 0x122B007A
+
+appling AresHook hook: 4677C2, BulletClass_Update_ChangeVelocity_Locked, 5
+add key '4677C2'
+ares hook callable: 0xCD7A9F6
+AresHookTransferStation alloc: 0x122B00B7
+
+appling AresHook hook: 46920B, BulletClass_Detonate, 6
+[Warning] BulletClass_Detonate overwrite 'JMP 0x3FA0000', which may jump to other module.
+add key '46920B'
+ares hook callable: 0xCD7A64E
+AresHookTransferStation alloc: 0x122B00F4
+
+appling AresHook hook: 469C4E, BulletClass_Detonate_WHAnim_Remap, 5
+[Warning] BulletClass_Detonate_WHAnim_Remap overwrite 'JMP 0x4000000', which may jump to other module.
+add key '469C4E'
+ares hook callable: 0xCD7AD56
+AresHookTransferStation alloc: 0x122B0131
+
+appling AresHook hook: 469EB4, BulletClass_Detonate_WHDebris_Remap, 6
+add key '469EB4'
+ares hook callable: 0xCD7AA86
+AresHookTransferStation alloc: 0x122B016E
+
+appling AresHook hook: 466E18, BulletClass_CheckHight_UnderGround, 6
+add key '466E18'
+ares hook callable: 0xCD7A7B6
+AresHookTransferStation alloc: 0x122B01AB
+in class ExtensionHooks.BulletExtHooks+<>c: 
+in class ExtensionHooks.BulletExtHooks+<>c__DisplayClass6_0: 
+in class ExtensionHooks.BulletExtHooks+<>c__DisplayClass10_0: 
+-----------------------------------
+
+appling: BulletTypeExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.BulletTypeExtHooks: 
+
+appling AresHook hook: 46BDD9, BulletTypeClass_CTOR, 5
+[Warning] BulletTypeClass_CTOR overwrite 'JMP 0x40F0000', which may jump to other module.
+add key '46BDD9'
+ares hook callable: 0xCD7A9AE
+AresHookTransferStation alloc: 0x122B01E8
+
+appling AresHook hook: 46C8B6, BulletTypeClass_SDDTOR, 6
+[Warning] BulletTypeClass_SDDTOR overwrite 'JMP 0x4160000', which may jump to other module.
+add key '46C8B6'
+ares hook callable: 0xCD7A8D6
+AresHookTransferStation alloc: 0x122B0225
+
+appling AresHook hook: 46C429, BulletTypeClass_LoadFromINI, A
+[Warning] BulletTypeClass_LoadFromINI overwrite 'JMP 0x4110000', which may jump to other module.
+add key '46C429'
+ares hook callable: 0xCD7AB16
+AresHookTransferStation alloc: 0x122B0262
+appling AresHook hook: 46C41C, BulletTypeClass_LoadFromINI, A
+[Warning] BulletTypeClass_LoadFromINI overwrite 'JMP 0x4100000', which may jump to other module.
+add key '46C41C'
+ares hook callable: 0xCD7A696
+AresHookTransferStation alloc: 0x122B029F
+
+appling AresHook hook: 46C730, BulletTypeClass_SaveLoad_Prefix, 8
+[Warning] BulletTypeClass_SaveLoad_Prefix overwrite 'JMP 0x4140000', which may jump to other module.
+add key '46C730'
+ares hook callable: 0xCD7AD9E
+AresHookTransferStation alloc: 0x122B02DC
+appling AresHook hook: 46C6A0, BulletTypeClass_SaveLoad_Prefix, 5
+[Warning] BulletTypeClass_SaveLoad_Prefix overwrite 'JMP 0x4120000', which may jump to other module.
+add key '46C6A0'
+ares hook callable: 0xCD7ADE6
+AresHookTransferStation alloc: 0x122B0319
+
+appling AresHook hook: 46C722, BulletTypeClass_Load_Suffix, 5
+[Warning] BulletTypeClass_Load_Suffix overwrite 'JMP 0x4130000', which may jump to other module.
+add key '46C722'
+ares hook callable: 0xCD7AC7E
+AresHookTransferStation alloc: 0x122B0356
+
+appling AresHook hook: 46C74A, BulletTypeClass_Save_Suffix, 5
+[Warning] BulletTypeClass_Save_Suffix overwrite 'JMP 0x4150000', which may jump to other module.
+add key '46C74A'
+ares hook callable: 0xCD7AB5E
+AresHookTransferStation alloc: 0x122B0393
+-----------------------------------
+
+appling: CreditsExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.CreditExtHook: 
+-----------------------------------
+
+appling: EBoltExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.EBoltExtHooks: 
+
+appling AresHook hook: 4C1E42, EBolt_CTOR, 5
+add key '4C1E42'
+ares hook callable: 0xCD7A52E
+AresHookTransferStation alloc: 0x122C0000
+
+appling AresHook hook: 4C2951, EBolt_DTOR, 5
+[Warning] EBolt_DTOR overwrite 'JMP 0x4890000', which may jump to other module.
+add key '4C2951'
+ares hook callable: 0xCD7AC36
+AresHookTransferStation alloc: 0x122C003D
+
+appling AresHook hook: 4C24BE, EBolt_Draw_Color1, 5
+[Warning] EBolt_Draw_Color1 overwrite 'JMP 0x4830000', which may jump to other module.
+add key '4C24BE'
+ares hook callable: 0xCD7A6DE
+AresHookTransferStation alloc: 0x122C007A
+
+appling AresHook hook: 4C25CB, EBolt_Draw_Color2, 5
+[Warning] EBolt_Draw_Color2 overwrite 'JMP 0x4850000', which may jump to other module.
+add key '4C25CB'
+ares hook callable: 0xCD7ACC6
+AresHookTransferStation alloc: 0x122C00B7
+
+appling AresHook hook: 4C26C7, EBolt_Draw_Color3, 5
+add key '4C26C7'
+ares hook callable: 0xCD7AD0E
+AresHookTransferStation alloc: 0x122C00F4
+
+appling AresHook hook: 4C24E4, Ebolt_Draw_Disable1, 8
+[Warning] Ebolt_Draw_Disable1 overwrite 'JMP 0x4840000', which may jump to other module.
+add key '4C24E4'
+ares hook callable: 0xCD7A726
+AresHookTransferStation alloc: 0x122C0131
+
+appling AresHook hook: 4C25FD, Ebolt_Draw_Disable2, A
+[Warning] Ebolt_Draw_Disable2 overwrite 'JMP 0x4860000', which may jump to other module.
+add key '4C25FD'
+ares hook callable: 0xCD7A7FE
+AresHookTransferStation alloc: 0x122C016E
+
+appling AresHook hook: 4C26EE, Ebolt_Draw_Disable3, 8
+[Warning] Ebolt_Draw_Disable3 overwrite 'JMP 0x4880000', which may jump to other module.
+add key '4C26EE'
+ares hook callable: 0xCD7A76E
+AresHookTransferStation alloc: 0x122C01AB
+-----------------------------------
+
+appling: GScreenExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.GScreenExtHook: 
+
+appling AresHook hook: 4F4583, GScreenClass_Render, 6
+[Warning] GScreenClass_Render overwrite 'JMP 0x4CA0000', which may jump to other module.
+add key '4F4583'
+ares hook callable: 0xCD7A846
+AresHookTransferStation alloc: 0x122C01E8
+-----------------------------------
+
+appling: LaserDrawExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.LaserDrawExtHooks: 
+
+appling AresHook hook: 550F6A, LaserDrawClass_Fade, 8
+add key '550F6A'
+ares hook callable: 0xCD7A88E
+AresHookTransferStation alloc: 0x122C0225
+-----------------------------------
+
+appling: MapExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.MapExtHooks: 
+
+appling AresHook hook: 489280, _MapClass_DamageArea, 6
+add key '489280'
+ares hook callable: 0xCD7B386
+AresHookTransferStation alloc: 0x122C0262
+
+appling AresHook hook: 69252D, ScrollClass_ProcessClickCoords_VirtualUnit, 6
+add key '69252D'
+ares hook callable: 0xCD7B4A6
+AresHookTransferStation alloc: 0x122C029F
+
+appling AresHook hook: 481D0E, CellClass_CrateBeingCollected_Firepower1, 6
+[Warning] CellClass_CrateBeingCollected_Firepower1 overwrite 'JMP 0x43D0000', which may jump to other module.
+add key '481D0E'
+ares hook callable: 0xCD7B33E
+AresHookTransferStation alloc: 0x122C02DC
+
+appling AresHook hook: 481C6C, CellClass_CrateBeingCollected_Armor1, 6
+[Warning] CellClass_CrateBeingCollected_Armor1 overwrite 'JMP 0x43B0000', which may jump to other module.
+add key '481C6C'
+ares hook callable: 0xCD7B416
+AresHookTransferStation alloc: 0x122C0319
+
+appling AresHook hook: 481CE1, CellClass_CrateBeingCollected_Speed1, 6
+[Warning] CellClass_CrateBeingCollected_Speed1 overwrite 'JMP 0x43C0000', which may jump to other module.
+add key '481CE1'
+ares hook callable: 0xCD7B45E
+AresHookTransferStation alloc: 0x122C0356
+
+appling AresHook hook: 481D3D, CellClass_CrateBeingCollected_Cloak1, 6
+[Warning] CellClass_CrateBeingCollected_Cloak1 overwrite 'JMP 0x43E0000', which may jump to other module.
+add key '481D3D'
+ares hook callable: 0xCD7B1D6
+AresHookTransferStation alloc: 0x122C0393
+
+appling AresHook hook: 483226, CellClass_CrateBeingCollected_Firepower2, 6
+[Warning] CellClass_CrateBeingCollected_Firepower2 overwrite 'JMP 0x4430000', which may jump to other module.
+add key '483226'
+ares hook callable: 0xCD7B2F6
+AresHookTransferStation alloc: 0x122D0000
+
+appling AresHook hook: 482E57, CellClass_CrateBeingCollected_Armor2, 6
+[Warning] CellClass_CrateBeingCollected_Armor2 overwrite 'JMP 0x4410000', which may jump to other module.
+add key '482E57'
+ares hook callable: 0xCD7AEBE
+AresHookTransferStation alloc: 0x122D003D
+
+appling AresHook hook: 48303A, CellClass_CrateBeingCollected_Speed2, 6
+[Warning] CellClass_CrateBeingCollected_Speed2 overwrite 'JMP 0x4420000', which may jump to other module.
+add key '48303A'
+ares hook callable: 0xCD7AF4E
+AresHookTransferStation alloc: 0x122D007A
+
+appling AresHook hook: 48294F, CellClass_CrateBeingCollected_Cloak2, 6
+[Warning] CellClass_CrateBeingCollected_Cloak2 overwrite 'JMP 0x4400000', which may jump to other module.
+add key '48294F'
+ares hook callable: 0xCD7B0B6
+AresHookTransferStation alloc: 0x122D00B7
+-----------------------------------
+
+appling: ParasiteExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.ParasiteExtHooks: 
+
+appling AresHook hook: 62A13F, ParasiteClass_Update_Anim_Remap, 5
+add key '62A13F'
+ares hook callable: 0xCD7B3CE
+AresHookTransferStation alloc: 0x122D00F4
+
+appling AresHook hook: 6297F0, ParasiteClass_GrappleUpdate_Anim_Remap, 6
+add key '6297F0'
+ares hook callable: 0xCD7AE2E
+AresHookTransferStation alloc: 0x122D0131
+-----------------------------------
+
+appling: RulesExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.RulesExtHooks: 
+
+appling AresHook hook: 667A1D, RulesClass_CTOR, 5
+[Warning] RulesClass_CTOR overwrite 'JMP 0x68F0000', which may jump to other module.
+add key '667A1D'
+ares hook callable: 0xCD7AF96
+AresHookTransferStation alloc: 0x122D016E
+
+appling AresHook hook: 667A30, RulesClass_DTOR, 5
+[Warning] RulesClass_DTOR overwrite 'JMP 0x6900000', which may jump to other module.
+add key '667A30'
+ares hook callable: 0xCD7AE76
+AresHookTransferStation alloc: 0x122D01AB
+
+appling AresHook hook: 674730, RulesClass_SaveLoad_Prefix, 6
+[Warning] RulesClass_SaveLoad_Prefix overwrite 'JMP 0x69F0000', which may jump to other module.
+add key '674730'
+ares hook callable: 0xCD7AF06
+AresHookTransferStation alloc: 0x122D01E8
+appling AresHook hook: 675210, RulesClass_SaveLoad_Prefix, 5
+[Warning] RulesClass_SaveLoad_Prefix overwrite 'JMP 0x6A10000', which may jump to other module.
+add key '675210'
+ares hook callable: 0xCD7AFDE
+AresHookTransferStation alloc: 0x122D0225
+
+appling AresHook hook: 678841, RulesClass_Load_Suffix, 7
+[Warning] RulesClass_Load_Suffix overwrite 'JMP 0x6A20000', which may jump to other module.
+add key '678841'
+ares hook callable: 0xCD7B026
+AresHookTransferStation alloc: 0x122D0262
+
+appling AresHook hook: 675205, RulesClass_Save_Suffix, 8
+[Warning] RulesClass_Save_Suffix overwrite 'JMP 0x6A00000', which may jump to other module.
+add key '675205'
+ares hook callable: 0xCD7B06E
+AresHookTransferStation alloc: 0x122D029F
+
+appling AresHook hook: 668BF0, RulesClass_Addition, 5
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\**\*.cs: waiting for first action to complete.
+[Warning] RulesClass_Addition overwrite 'JMP 0x6910000', which may jump to other module.
+add key '668BF0'
+ares hook callable: 0xCD7B0FE
+AresHookTransferStation alloc: 0x122D02DC
+
+appling AresHook hook: 679A15, RulesData_LoadBeforeTypeData, 6
+[Warning] RulesData_LoadBeforeTypeData overwrite 'JMP 0x6A40000', which may jump to other module.
+add key '679A15'
+ares hook callable: 0xCD7B21E
+AresHookTransferStation alloc: 0x122D0319
+
+appling AresHook hook: 679CAF, RulesData_LoadAfterTypeData, 5
+[Warning] RulesData_LoadAfterTypeData overwrite 'JMP 0x6A50000', which may jump to other module.
+add key '679CAF'
+ares hook callable: 0xCD7B266
+AresHookTransferStation alloc: 0x122D0356
+-----------------------------------
+
+appling: SpawnManagerExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.SpawnManagerExtHooks: 
+
+appling AresHook hook: 6B7A32, SpawnManagerClass_AI_Add_Missile_Target, 5
+add key '6B7A32'
+ares hook callable: 0xCD7B18E
+AresHookTransferStation alloc: 0x122D0393
+
+appling AresHook hook: 54E42B, KamikazeTrackerClass_Add_Missile_Has_Target, 6
+add key '54E42B'
+ares hook callable: 0xCD7B146
+AresHookTransferStation alloc: 0x12420000
+
+appling AresHook hook: 54E478, KamikazeTrackerClass_Add, 5
+add key '54E478'
+ares hook callable: 0xCD7B2AE
+AresHookTransferStation alloc: 0x1242003D
+
+appling AresHook hook: 54E661, KamikazeTrackerClass_Cannot_Detach2, 6
+add key '54E661'
+ares hook callable: 0xCD7BD5E
+AresHookTransferStation alloc: 0x1242007A
+
+appling AresHook hook: 6622C0, RocketLocomotionClass_Process, 6
+add key '6622C0'
+ares hook callable: 0xCD7B60E
+AresHookTransferStation alloc: 0x124200B7
+
+appling AresHook hook: 662CAC, RocketLocomotionClass_Process_Step5_To_Lazy_4, 6
+add key '662CAC'
+ares hook callable: 0xCD7B9B6
+AresHookTransferStation alloc: 0x124200F4
+-----------------------------------
+
+appling: TechnoExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.TechnoExtHooks: 
+
+appling AresHook hook: 6F3260, TechnoClass_CTOR, 5
+[Warning] TechnoClass_CTOR overwrite 'JMP 0x79A0000', which may jump to other module.
+add key '6F3260'
+ares hook callable: 0xCD7BDA6
+AresHookTransferStation alloc: 0x12420131
+
+appling AresHook hook: 6F4500, TechnoClass_DTOR, 5
+[Warning] TechnoClass_DTOR overwrite 'JMP 0x7AB0000', which may jump to other module.
+add key '6F4500'
+ares hook callable: 0xCD7B96E
+AresHookTransferStation alloc: 0x1242016E
+
+appling AresHook hook: 70C250, TechnoClass_SaveLoad_Prefix, 8
+[Warning] TechnoClass_SaveLoad_Prefix overwrite 'JMP 0x83C0000', which may jump to other module.
+add key '70C250'
+ares hook callable: 0xCD7BDEE
+AresHookTransferStation alloc: 0x124201AB
+appling AresHook hook: 70BF50, TechnoClass_SaveLoad_Prefix, 5
+[Warning] TechnoClass_SaveLoad_Prefix overwrite 'JMP 0x83A0000', which may jump to other module.
+add key '70BF50'
+ares hook callable: 0xCD7B896
+AresHookTransferStation alloc: 0x124201E8
+
+appling AresHook hook: 70C249, TechnoClass_Load_Suffix, 5
+[Warning] TechnoClass_Load_Suffix overwrite 'JMP 0x83B0000', which may jump to other module.
+add key '70C249'
+ares hook callable: 0xCD7B8DE
+AresHookTransferStation alloc: 0x12420225
+
+appling AresHook hook: 70C264, TechnoClass_Save_Suffix, 5
+[Warning] TechnoClass_Save_Suffix destroy 'JMP 0x985AC25A' at 0x70C261.
+[Warning] TechnoClass_Save_Suffix overwrite 'JMP 0x83D0000', which may jump to other module.
+add key '70C264'
+ares hook callable: 0xCD7B536
+AresHookTransferStation alloc: 0x12420262
+
+appling AresHook hook: 6F42ED, TechnoClass_Init, A
+add key '6F42ED'
+ares hook callable: 0xCD7B57E
+AresHookTransferStation alloc: 0x1242029F
+
+appling AresHook hook: 4149F0, AircraftClass_Render2, 5
+add key '4149F0'
+ares hook callable: 0xCD7B656
+AresHookTransferStation alloc: 0x124202DC
+
+appling AresHook hook: 51961A, InfantryClass_Render2, 5
+add key '51961A'
+ares hook callable: 0xCD7BD16
+AresHookTransferStation alloc: 0x12420319
+
+appling AresHook hook: 73D410, UnitClass_Render2, 5
+add key '73D410'
+ares hook callable: 0xCD7B9FE
+AresHookTransferStation alloc: 0x12420356
+
+appling AresHook hook: 6F9E50, TechnoClass_Update, 5
+[Warning] TechnoClass_Update overwrite 'JMP 0x7C80000', which may jump to other module.
+add key '6F9E50'
+ares hook callable: 0xCD7BA46
+AresHookTransferStation alloc: 0x12420393
+
+appling AresHook hook: 71A88D, TemporalClass_UpdateA, 0
+[Warning] TemporalClass_UpdateA overwrite 'JMP 0x87E0000', which may jump to other module.
+add key '71A88D'
+ares hook callable: 0xCD7B84E
+AresHookTransferStation alloc: 0x12430000
+
+appling AresHook hook: 414C27, AircraftClass_Update_SkipCreateChronoSparkleAnimOnStand, 5
+add key '414C27'
+ares hook callable: 0xCD7B806
+AresHookTransferStation alloc: 0x1243003D
+
+appling AresHook hook: 440499, BuildingClass_Update_SkipCreateChronoSparkleAnimOnStand1, 5
+add key '440499'
+ares hook callable: 0xCD7BA8E
+AresHookTransferStation alloc: 0x1243007A
+
+appling AresHook hook: 44050C, BuildingClass_Update_SkipCreateChronoSparkleAnimOnStand2, 5
+add key '44050C'
+ares hook callable: 0xCD7B6E6
+AresHookTransferStation alloc: 0x124300B7
+
+appling AresHook hook: 51BB17, InfantryClass_Update_SkipCreateChronoSparkleAnimOnStand, 5
+add key '51BB17'
+ares hook callable: 0xCD7BAD6
+AresHookTransferStation alloc: 0x124300F4
+
+appling AresHook hook: 736250, UnitClass_Update_SkipCreateChronoSparkleAnimOnStand, 5
+add key '736250'
+ares hook callable: 0xCD7BB1E
+AresHookTransferStation alloc: 0x12430131
+
+appling AresHook hook: 739C74, UnitClass_Deployed, 6
+add key '739C74'
+ares hook callable: 0xCD7B5C6
+AresHookTransferStation alloc: 0x1243016E
+
+appling AresHook hook: 6F6CA0, TechnoClass_Put, 7
+add key '6F6CA0'
+ares hook callable: 0xCD7B69E
+AresHookTransferStation alloc: 0x124301AB
+
+appling AresHook hook: 6F6AC4, TechnoClass_Remove, 5
+[Warning] TechnoClass_Remove overwrite 'JMP 0x7B80000', which may jump to other module.
+add key '6F6AC4'
+ares hook callable: 0xCD7BB66
+AresHookTransferStation alloc: 0x124301E8
+
+appling AresHook hook: 701900, TechnoClass_ReceiveDamage, 6
+[Warning] TechnoClass_ReceiveDamage overwrite 'JMP 0x8100000', which may jump to other module.
+add key '701900'
+ares hook callable: 0xCD7B926
+AresHookTransferStation alloc: 0x12430225
+
+appling AresHook hook: 701DFF, TechnoClass_ReceiveDamage2, 7
+add key '701DFF'
+ares hook callable: 0xCD7BBAE
+AresHookTransferStation alloc: 0x12430262
+
+appling AresHook hook: 702050, TechnoClass_Destroy, 6
+[Warning] TechnoClass_Destroy overwrite 'JMP 0x8150000', which may jump to other module.
+add key '702050'
+ares hook callable: 0xCD7BC3E
+AresHookTransferStation alloc: 0x1243029F
+
+appling AresHook hook: 70256C, TechnoClass_Destroy_Debris_Remap, 6
+add key '70256C'
+ares hook callable: 0xCD7B72E
+AresHookTransferStation alloc: 0x124302DC
+
+appling AresHook hook: 7024B0, TechnoClass_Destroy_Debris_Remap2, 6
+add key '7024B0'
+ares hook callable: 0xCD7BBF6
+AresHookTransferStation alloc: 0x12430319
+
+appling AresHook hook: 737F13, UnitClass_Destroy_Debris_Remap, 6
+add key '737F13'
+ares hook callable: 0xCD7BC86
+AresHookTransferStation alloc: 0x12430356
+
+appling AresHook hook: 737F66, UnitClass_Destroy_Debris_Remap2, 5
+add key '737F66'
+ares hook callable: 0xCD7B7BE
+AresHookTransferStation alloc: 0x12430393
+
+appling AresHook hook: 738749, UnitClass_Destroy_Explosion_Remap, 6
+[Warning] UnitClass_Destroy_Explosion_Remap overwrite 'JMP 0x8F00000', which may jump to other module.
+add key '738749'
+ares hook callable: 0xCD7B776
+AresHookTransferStation alloc: 0x12440000
+
+appling AresHook hook: 738801, UnitClass_Destroy_DestroyAnim_Remap, 6
+add key '738801'
+ares hook callable: 0xCD7BCCE
+AresHookTransferStation alloc: 0x1244003D
+
+appling AresHook hook: 441A26, BuildingClass_Destroy_Explosion_Remap, 6
+add key '441A26'
+ares hook callable: 0xCD7C41E
+AresHookTransferStation alloc: 0x1244007A
+
+appling AresHook hook: 441B22, BuildingClass_Destroy_Exploding_Remap, 6
+add key '441B22'
+ares hook callable: 0xCD7BEC6
+AresHookTransferStation alloc: 0x124400B7
+
+appling AresHook hook: 441D25, BuildingClass_Destroy_DestroyAnim_Remap, A
+[Warning] BuildingClass_Destroy_DestroyAnim_Remap overwrite 'JMP 0x3470000', which may jump to other module.
+add key '441D25'
+ares hook callable: 0xCD7C466
+AresHookTransferStation alloc: 0x124400F4
+
+appling AresHook hook: 6FC339, TechnoClass_CanFire, 6
+[Warning] TechnoClass_CanFire overwrite 'JMP 0x7DB0000', which may jump to other module.
+add key '6FC339'
+ares hook callable: 0xCD7C4AE
+AresHookTransferStation alloc: 0x12440131
+
+appling AresHook hook: 6FC749, TechnoClass_CanFire_WhichLayer_Stand, 5
+add key '6FC749'
+ares hook callable: 0xCD7BFE6
+AresHookTransferStation alloc: 0x1244016E
+
+appling AresHook hook: 6FDD50, TechnoClass_Fire, 6
+add key '6FDD50'
+ares hook callable: 0xCD7C0BE
+AresHookTransferStation alloc: 0x124401AB
+
+appling AresHook hook: 6FDD61, TechnoClass_Fire_OverrideWeapon, 5
+add key '6FDD61'
+ares hook callable: 0xCD7C02E
+AresHookTransferStation alloc: 0x124401E8
+
+appling AresHook hook: 6FF66C, TechnoClass_Fire_DecreaseAmmo, 6
+add key '6FF66C'
+ares hook callable: 0xCD7BF0E
+AresHookTransferStation alloc: 0x12440225
+
+appling AresHook hook: 6FF929, TechnoClass_Fire_FireOnce, 6
+add key '6FF929'
+ares hook callable: 0xCD7C38E
+AresHookTransferStation alloc: 0x12440262
+
+appling AresHook hook: 702E9D, TechnoClass_RegisterDestruction, 6
+[Warning] TechnoClass_RegisterDestruction overwrite 'JMP 0x8230000', which may jump to other module.
+add key '702E9D'
+ares hook callable: 0xCD7BE36
+AresHookTransferStation alloc: 0x1244029F
+
+appling AresHook hook: 5F45A0, TechnoClass_Select, 5
+add key '5F45A0'
+ares hook callable: 0xCD7BE7E
+AresHookTransferStation alloc: 0x124402DC
+
+appling AresHook hook: 6FC018, TechnoClass_Select_SkipVoice, 6
+add key '6FC018'
+ares hook callable: 0xCD7BF56
+AresHookTransferStation alloc: 0x12440319
+
+appling AresHook hook: 6F65D1, TechnoClass_DrawHealthBar_Building, 6
+[Warning] TechnoClass_DrawHealthBar_Building overwrite 'JMP 0x7B40000', which may jump to other module.
+add key '6F65D1'
+ares hook callable: 0xCD7BF9E
+AresHookTransferStation alloc: 0x12440356
+
+appling AresHook hook: 6F683C, TechnoClass_DrawHealthBar_Other, 7
+[Warning] TechnoClass_DrawHealthBar_Other overwrite 'JMP 0x7B60000', which may jump to other module.
+add key '6F683C'
+ares hook callable: 0xCD7C3D6
+AresHookTransferStation alloc: 0x12440393
+
+appling AresHook hook: 7063FF, TechnoClass_DrawSHP_Colour, 7
+add key '7063FF'
+ares hook callable: 0xCD7C076
+AresHookTransferStation alloc: 0x12450000
+
+appling AresHook hook: 706640, TechnoClass_DrawVXL_Colour, 5
+add key '706640'
+ares hook callable: 0xCD7C106
+AresHookTransferStation alloc: 0x1245003D
+
+appling AresHook hook: 73C15F, UnitClass_DrawVXL_Colour, 7
+add key '73C15F'
+ares hook callable: 0xCD7C14E
+AresHookTransferStation alloc: 0x1245007A
+
+appling AresHook hook: 6F9039, TechnoClass_Greatest_Threat_HealWeaponRange, 5
+add key '6F9039'
+ares hook callable: 0xCD7C196
+AresHookTransferStation alloc: 0x124500B7
+
+appling AresHook hook: 730E8F, ObjectClass_GuardCommand, 6
+add key '730E8F'
+ares hook callable: 0xCD7C1DE
+AresHookTransferStation alloc: 0x124500F4
+
+appling AresHook hook: 730F1C, ObjectClass_StopCommand, 5
+add key '730F1C'
+ares hook callable: 0xCD7C226
+AresHookTransferStation alloc: 0x12450131
+
+appling AresHook hook: 5F6B90, ObjectClass_InAir_SkipCheckIsOnMap, 5
+add key '5F6B90'
+ares hook callable: 0xCD7C26E
+AresHookTransferStation alloc: 0x1245016E
+
+appling AresHook hook: 4D94B0, TechnoClass_SetDestination_Stand, 5
+add key '4D94B0'
+ares hook callable: 0xCD7C2B6
+AresHookTransferStation alloc: 0x124501AB
+
+appling AresHook hook: 704363, TechnoClass_GetZAdjust_Stand, 5
+add key '704363'
+ares hook callable: 0xCD7C2FE
+AresHookTransferStation alloc: 0x124501E8
+
+appling AresHook hook: 4DB7F7, FootClass_In_Which_Layer_Stand, 6
+add key '4DB7F7'
+ares hook callable: 0xCD7C346
+AresHookTransferStation alloc: 0x12450225
+
+appling AresHook hook: 54B8E9, JumpjetLocomotionClass_In_Which_Layer_Deviation, 6
+[Warning] JumpjetLocomotionClass_In_Which_Layer_Deviation overwrite 'JMP 0x5B80000', which may jump to other module.
+add key '54B8E9'
+ares hook callable: 0xCD7CCD6
+AresHookTransferStation alloc: 0x12450262
+in class ExtensionHooks.TechnoExtHooks+<>c: 
+in class ExtensionHooks.TechnoExtHooks+<>c__DisplayClass11_0: 
+in class ExtensionHooks.TechnoExtHooks+<>c__DisplayClass18_0: 
+in class ExtensionHooks.TechnoExtHooks+<>c__DisplayClass20_0: 
+in class ExtensionHooks.TechnoExtHooks+<>c__DisplayClass32_0: 
+in class ExtensionHooks.TechnoExtHooks+<>c__DisplayClass34_0: 
+in class ExtensionHooks.TechnoExtHooks+<>c__DisplayClass39_0: 
+-----------------------------------
+
+appling: TechnoTypeExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.TechnoTypeExtHooks: 
+
+appling AresHook hook: 711835, TechnoTypeClass_CTOR, 5
+[Warning] TechnoTypeClass_CTOR overwrite 'JMP 0x8510000', which may jump to other module.
+add key '711835'
+ares hook callable: 0xCD7CB6E
+AresHookTransferStation alloc: 0x1245029F
+
+appling AresHook hook: 711AE0, TechnoTypeClass_DTOR, 5
+[Warning] TechnoTypeClass_DTOR overwrite 'JMP 0x8530000', which may jump to other module.
+add key '711AE0'
+ares hook callable: 0xCD7CB26
+AresHookTransferStation alloc: 0x124502DC
+
+appling AresHook hook: 716132, TechnoTypeClass_LoadFromINI, 5
+[Warning] TechnoTypeClass_LoadFromINI overwrite 'JMP 0x85F0000', which may jump to other module.
+add key '716132'
+ares hook callable: 0xCD7C92E
+AresHookTransferStation alloc: 0x12450319
+appling AresHook hook: 716123, TechnoTypeClass_LoadFromINI, 5
+[Warning] TechnoTypeClass_LoadFromINI overwrite 'JMP 0x85E0000', which may jump to other module.
+add key '716123'
+ares hook callable: 0xCD7CBB6
+AresHookTransferStation alloc: 0x12450356
+
+appling AresHook hook: 716DC0, TechnoTypeClass_SaveLoad_Prefix, 5
+[Warning] TechnoTypeClass_SaveLoad_Prefix overwrite 'JMP 0x8650000', which may jump to other module.
+add key '716DC0'
+ares hook callable: 0xCD7C65E
+AresHookTransferStation alloc: 0x12450393
+appling AresHook hook: 7162F0, TechnoTypeClass_SaveLoad_Prefix, 6
+[Warning] TechnoTypeClass_SaveLoad_Prefix overwrite 'JMP 0x8610000', which may jump to other module.
+add key '7162F0'
+ares hook callable: 0xCD7C976
+AresHookTransferStation alloc: 0x12460000
+
+appling AresHook hook: 716DAC, TechnoTypeClass_Load_Suffix, A
+[Warning] TechnoTypeClass_Load_Suffix overwrite 'JMP 0x8640000', which may jump to other module.
+add key '716DAC'
+ares hook callable: 0xCD7CA06
+AresHookTransferStation alloc: 0x1246003D
+
+appling AresHook hook: 717094, TechnoTypeClass_Save_Suffix, 5
+[Warning] TechnoTypeClass_Save_Suffix overwrite 'JMP 0x8660000', which may jump to other module.
+add key '717094'
+ares hook callable: 0xCD7C8E6
+AresHookTransferStation alloc: 0x1246007A
+-----------------------------------
+
+appling: WarheadTypeExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.WarheadTypeExtHooks: 
+
+appling AresHook hook: 75D1A9, WarheadTypeClass_CTOR, 7
+[Warning] WarheadTypeClass_CTOR overwrite 'JMP 0x96C0000', which may jump to other module.
+add key '75D1A9'
+ares hook callable: 0xCD7C6A6
+AresHookTransferStation alloc: 0x124600B7
+
+appling AresHook hook: 75E5C8, WarheadTypeClass_SDDTOR, 6
+[Warning] WarheadTypeClass_SDDTOR overwrite 'JMP 0x9760000', which may jump to other module.
+add key '75E5C8'
+ares hook callable: 0xCD7C616
+AresHookTransferStation alloc: 0x124600F4
+
+appling AresHook hook: 75DEAF, WarheadTypeClass_LoadFromINI, 5
+[Warning] WarheadTypeClass_LoadFromINI overwrite 'JMP 0x9710000', which may jump to other module.
+add key '75DEAF'
+ares hook callable: 0xCD7C89E
+AresHookTransferStation alloc: 0x12460131
+appling AresHook hook: 75DEA0, WarheadTypeClass_LoadFromINI, 5
+[Warning] WarheadTypeClass_LoadFromINI overwrite 'JMP 0x9700000', which may jump to other module.
+add key '75DEA0'
+ares hook callable: 0xCD7CA4E
+AresHookTransferStation alloc: 0x1246016E
+
+appling AresHook hook: 75E2C0, WarheadTypeClass_SaveLoad_Prefix, 5
+[Warning] WarheadTypeClass_SaveLoad_Prefix overwrite 'JMP 0x9740000', which may jump to other module.
+add key '75E2C0'
+ares hook callable: 0xCD7C5CE
+AresHookTransferStation alloc: 0x124601AB
+appling AresHook hook: 75E0C0, WarheadTypeClass_SaveLoad_Prefix, 8
+[Warning] WarheadTypeClass_SaveLoad_Prefix overwrite 'JMP 0x9720000', which may jump to other module.
+add key '75E0C0'
+ares hook callable: 0xCD7C77E
+AresHookTransferStation alloc: 0x124601E8
+
+appling AresHook hook: 75E2AE, WarheadTypeClass_Load_Suffix, 7
+[Warning] WarheadTypeClass_Load_Suffix overwrite 'JMP 0x9730000', which may jump to other module.
+add key '75E2AE'
+ares hook callable: 0xCD7CBFE
+AresHookTransferStation alloc: 0x12460225
+
+appling AresHook hook: 75E39C, WarheadTypeClass_Save_Suffix, 5
+[Warning] WarheadTypeClass_Save_Suffix overwrite 'JMP 0x9750000', which may jump to other module.
+add key '75E39C'
+ares hook callable: 0xCD7C586
+AresHookTransferStation alloc: 0x12460262
+-----------------------------------
+
+appling: WeaponTypeExt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class ExtensionHooks.WeaponTypeExtHooks: 
+
+appling AresHook hook: 771EE9, WeaponTypeClass_CTOR, 5
+[Warning] WeaponTypeClass_CTOR overwrite 'JMP 0x9880000', which may jump to other module.
+add key '771EE9'
+ares hook callable: 0xCD7CADE
+AresHookTransferStation alloc: 0x1246029F
+
+appling AresHook hook: 77311D, WeaponTypeClass_SDDTOR, 6
+[Warning] WeaponTypeClass_SDDTOR overwrite 'JMP 0x9930000', which may jump to other module.
+add key '77311D'
+ares hook callable: 0xCD7C6EE
+AresHookTransferStation alloc: 0x124602DC
+
+appling AresHook hook: 7729C7, WeaponTypeClass_LoadFromINI, 5
+[Warning] WeaponTypeClass_LoadFromINI overwrite 'JMP 0x98B0000', which may jump to other module.
+add key '7729C7'
+ares hook callable: 0xCD7CC46
+AresHookTransferStation alloc: 0x12460319
+appling AresHook hook: 7729D6, WeaponTypeClass_LoadFromINI, 5
+[Warning] WeaponTypeClass_LoadFromINI overwrite 'JMP 0x98C0000', which may jump to other module.
+add key '7729D6'
+ares hook callable: 0xCD7C736
+AresHookTransferStation alloc: 0x12460356
+appling AresHook hook: 7729B0, WeaponTypeClass_LoadFromINI, 5
+[Warning] WeaponTypeClass_LoadFromINI overwrite 'JMP 0x98A0000', which may jump to other module.
+add key '7729B0'
+ares hook callable: 0xCD7C7C6
+AresHookTransferStation alloc: 0x12460393
+
+appling AresHook hook: 772EB0, WeaponTypeClass_SaveLoad_Prefix, 5
+[Warning] WeaponTypeClass_SaveLoad_Prefix overwrite 'JMP 0x9900000', which may jump to other module.
+add key '772EB0'
+ares hook callable: 0xCD7C80E
+AresHookTransferStation alloc: 0x12470000
+appling AresHook hook: 772CD0, WeaponTypeClass_SaveLoad_Prefix, 7
+[Warning] WeaponTypeClass_SaveLoad_Prefix overwrite 'JMP 0x98E0000', which may jump to other module.
+add key '772CD0'
+ares hook callable: 0xCD7CD1E
+AresHookTransferStation alloc: 0x1247003D
+
+appling AresHook hook: 772EA6, WeaponTypeClass_Load_Suffix, 6
+[Warning] WeaponTypeClass_Load_Suffix overwrite 'JMP 0x98F0000', which may jump to other module.
+add key '772EA6'
+ares hook callable: 0xCD7CC8E
+AresHookTransferStation alloc: 0x1247007A
+
+appling AresHook hook: 772F8C, WeaponTypeClass_Save_Suffix, 5
+[Warning] WeaponTypeClass_Save_Suffix overwrite 'JMP 0x9910000', which may jump to other module.
+add key '772F8C'
+ares hook callable: 0xCD7C856
+AresHookTransferStation alloc: 0x124700B7
+-----------------------------------
+
+appling: FXEngineHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+-----------------------------------
+
+appling: General, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class GeneralHooks.General: 
+
+appling AresHook hook: 52BA60, YR_Boot, 5
+add key '52BA60'
+ares hook callable: 0xCD7C9BE
+AresHookTransferStation alloc: 0x124700F4
+
+appling AresHook hook: 6875F3, Scenario_Start1, 6
+add key '6875F3'
+ares hook callable: 0xCD7CA96
+AresHookTransferStation alloc: 0x12470131
+
+appling AresHook hook: 685659, Scenario_ClearClasses, A
+[Warning] Scenario_ClearClasses overwrite 'JMP 0x6B80000', which may jump to other module.
+add key '685659'
+ares hook callable: 0xCD7CD66
+AresHookTransferStation alloc: 0x1247016E
+
+appling AresHook hook: 7CD8EF, ExeTerminate, 9
+[Warning] ExeTerminate overwrite 'JMP 0x99A0000', which may jump to other module.
+add key '7CD8EF'
+ares hook callable: 0xCD7CDAE
+AresHookTransferStation alloc: 0x124701AB
+-----------------------------------
+
+appling: PointerExpire, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class GeneralHooks.PointerExpire: 
+-----------------------------------
+
+appling: Savegame, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class GeneralHooks.Savegame: 
+
+appling AresHook hook: 67D300, SaveGame_Start, 5
+[Warning] SaveGame_Start overwrite 'JMP 0x6A80000', which may jump to other module.
+add key '67D300'
+ares hook callable: 0xCD7CDF6
+AresHookTransferStation alloc: 0x124701E8
+
+appling AresHook hook: 67E42E, SaveGame, D
+[Warning] SaveGame overwrite 'JMP 0x6AC0000', which may jump to other module.
+add key '67E42E'
+ares hook callable: 0xCD7C53E
+AresHookTransferStation alloc: 0x12470225
+
+appling AresHook hook: 67E730, LoadGame_Start, 5
+[Warning] LoadGame_Start overwrite 'JMP 0x6AD0000', which may jump to other module.
+add key '67E730'
+ares hook callable: 0xCD7D396
+AresHookTransferStation alloc: 0x12470262
+
+appling AresHook hook: 67F7C8, LoadGame_End, 5
+[Warning] LoadGame_End overwrite 'JMP 0x6B10000', which may jump to other module.
+add key '67F7C8'
+ares hook callable: 0xCD7CE3E
+AresHookTransferStation alloc: 0x1247029F
+-----------------------------------
+
+appling: DynamicLoadINI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class Miscellaneous.DynamicLoadINI: 
+-----------------------------------
+
+appling: Preprocess, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+-----------------------------------
+
+appling: SurfaceDisplayer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+-----------------------------------
+
+appling: ParaScript, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+-----------------------------------
+in class Scripts.ParaScript: 
+-----------------------------------
+
+C:\Program Files (x86)\Origin Games\Command and Conquer Red Alert II\DynamicPatcher\**\*.cs: first action complete!

@@ -1,0 +1,31 @@
+{
+  "references": [
+    "System.dll",
+    "System.Core.dll",
+    "System.Data.dll",
+    "System.Runtime.CompilerServices.Unsafe.dll",
+    "System.Windows.Forms.dll",
+    "System.Drawing.dll",
+    "System.Numerics.dll",
+    "DynamicPatcher\\Libraries\\System.Runtime.CompilerServices.Unsafe.dll",
+    "DynamicPatcher\\Libraries\\PatcherYRpp.dll",
+    "DynamicPatcher\\Libraries\\PatcherYRpp.Utilities.dll",
+    "DynamicPatcher\\Libraries\\Extension.dll",
+    "DynamicPatcher\\Libraries\\Extension.FX.dll",
+    "Microsoft.VisualStudio.Interop.dll"
+  ],
+  "preprocessor_symbols": [
+    "_REALTIME_INI",
+    "_FX_ENABLE",
+    "_FX_USED3D",
+    "_FX_TOFIX",
+    "_FX_CNCDDRAW"
+  ],
+  "show_hidden": false,
+  "load_temp_file_in_memory": false,
+  "emit_pdb": true,
+  "force_compile": false,
+  "pack_assembly": true,
+  "copy_logs":false,
+  "optimization_level": "release"
+}
